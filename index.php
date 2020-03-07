@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 
+
 <head>
 
 <!--====== Required meta tags ======-->
@@ -70,7 +71,7 @@
 
 	<!--====== HEADER PART START ======-->
 
-	<header id="header-part" class="header-four">
+	<header id="header-part" class="header-two">
 		<div class="header-top d-none d-lg-block">
 			<div class="container">
 				<div class="row">
@@ -78,7 +79,6 @@
 					<div class="col-md-6">
 						<div class="header-right d-flex justify-content-end">
 							<div class="social d-flex">
-								<span class="follow-us">Follow Us :</span>
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
 									<li><a href="#"><i class="fa fa-youtube"></i></a></li>
@@ -90,8 +90,8 @@
 							<!-- social -->
 							<div class="login-register">
 								<ul>
-									<li><a href="#">Login</a></li>
-									<li><a href="#">Register</a></li>
+									
+									<li><a href="register.php">Register</a></li>
 								</ul>
 							</div>
 						</div>
@@ -123,14 +123,11 @@
 							<div class="collapse navbar-collapse sub-menu-bar"
 								id="navbarSupportedContent">
 								<ul class="navbar-nav ml-auto">
-									<li class="nav-item"><a href="index.php">Home</a></li>
-									<li class="nav-item"><a class="active" href="about.html">About</a>
-									</li>
-									<li class="nav-item"><a href="courses.html">Courses</a>
-										<ul class="sub-menu">
-											<li><a href="courses.html">Courses</a></li>
-											<li><a href="courses-single.html">Course Single</a></li>
-										</ul></li>
+									<li class="nav-item"><a class="active" href="index.php">Home</a>
+										</li>
+									<li class="nav-item"><a href="aboutus.php">About</a></li>
+									<li class="nav-item"><a href="courses.php">Courses</a>
+										</li>
 									<li class="nav-item"><a href="events.html">Events</a>
 										<ul class="sub-menu">
 											<li><a href="events.html">Events List 1</a></li>
@@ -153,7 +150,8 @@
 											<li><a href="shop.html">Shop</a></li>
 											<li><a href="shop-single.html">Shop Single</a></li>
 										</ul></li>
-									<li class="nav-item"><a href="contact.html">Contact</a></li>
+									<li class="nav-item"><a href="contact.php">Contact</a>
+									</li>
 								</ul>
 							</div>
 							<div class="right-icon text-right">
@@ -195,96 +193,231 @@
 
 	<!--====== SEARCH BOX PART ENDS ======-->
 
-	<!--====== PAGE BANNER PART START ======-->
+	<!--====== SLIDER PART START ======-->
 
-	<section id="page-banner" class="pt-105 pb-110 bg_cover"
-		data-overlay="8"
-		style="background-image: url(images/page-banner-1.jpg)">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="page-banner-cont">
-						<h2>About Us</h2>
-						<nav aria-label="breadcrumb">
-							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">Home</a></li>
-								<li class="breadcrumb-item active" aria-current="page">About Us</li>
-							</ol>
-						</nav>
-					</div>
-					<!-- page banner cont -->
-				</div>
-			</div>
-			<!-- row -->
-		</div>
-		<!-- container -->
-	</section>
-
-	<!--====== PAGE BANNER PART ENDS ======-->
-
-	<!--====== ABOUT PART START ======-->
-
-	<section id="about-page" class="pt-70 pb-110">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5">
-					<div class="section-title mt-50">
-						<h5>About us</h5>
-						<h2>Welcome to CareerBuddy!</h2>
-					</div>
-					<!-- section title -->
-					<div class="about-cont">
-						<p>A team whose passsion is to help students in finding the Right Career.</p><p>Career Solution For Every Career Need Students & Parents
-							Professionals Educational Institutes Organizations Shaping a
-							better future... TOGETHER!</p>
-					</div>
-				</div>
-				<!-- about cont -->
-				<div class="col-lg-7">
-					<div class="about-image mt-50">
-						<img src="images/about/about-2.jpg" alt="About">
-					</div>
-					<!-- about image -->
-				</div>
-			</div>
-			<!-- row -->
-			<div class="about-items pt-60">
-				<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-6 col-sm-10">
-						<div class="about-single-items mt-30">
-							<span>01</span>
-							<h4>Why Choose us</h4>
-							<p>Career Buddy is an embodiment of your career. To get career seekers headed in a better direction, is a solution here.
-							</p>
+	<section id="slider-part" class="slider-active">
+		<div class="single-slider slider-2 bg_cover"
+			style="background-image: url(images/slider/s-2.jpg)" data-overlay="4">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-9 col-lg-10">
+						<div class="slider-cont">
+							<h1 data-animation="bounceInLeft" data-delay="1s">Your Career Is
+								Your Life!</h1>
+							<a data-animation="fadeInUp" data-delay="1.3s" href="#"
+								class="main-btn">About Us</a>
 						</div>
-						<!-- about single -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-10">
-						<div class="about-single-items mt-30">
-							<span>02</span>
-							<h4>Our Mission</h4>
-							<p>We help you build a career that maxmizes your potential.</p>
-						</div>
-						<!-- about single -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-10">
-						<div class="about-single-items mt-30">
-							<span>03</span>
-							<h4>Our visions</h4>
-							<p>Exciting Career Options for all from std 8th to business professionals
-							</p>
-						</div>
-						<!-- about single -->
 					</div>
 				</div>
 				<!-- row -->
 			</div>
-			<!-- about items -->
+			<!-- container -->
+		</div>
+		<!-- single slider -->
+
+		<div class="single-slider slider-2 bg_cover"
+			style="background-image: url(images/slider/s-3.jpg)" data-overlay="4">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-9 col-lg-10">
+						<div class="slider-cont">
+							<h1 data-animation="bounceInLeft" data-delay="1s">
+								The mentor-in-your-pocket!</h1>
+							<a data-animation="fadeInUp" data-delay="1.3s" href="#"
+								class="main-btn">About Us</a>
+						</div>
+					</div>
+				</div>
+				<!-- row -->
+			</div>
+			<!-- container -->
+		</div>
+		<!-- single slider -->
+
+		<div class="single-slider slider-2 bg_cover"
+			style="background-image: url(images/slider/s-1.jpg)" data-overlay="4">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-9 col-lg-10">
+						<div class="slider-cont">
+							<h1 data-animation="bounceInLeft" data-delay="1s">Exciting Career Options
+							</h1>
+							<a data-animation="fadeInUp" data-delay="1.3s" href="#"
+								class="main-btn">About Us</a>
+						</div>
+					</div>
+				</div>
+				<!-- row -->
+			</div>
+			<!-- container -->
+		</div>
+		<!-- single slider -->
+	</section>
+
+	<!--====== SLIDER PART ENDS ======-->
+
+	<!--====== CATEGORY PART START ======-->
+
+	<section id="category-2-part">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="category-2-items pt-10">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="single-items text-center mt-30">
+									<div class="items-image">
+										<img src="images/category/ctg-1.jpg" alt="Category">
+									</div>
+									<div class="items-cont">
+										<a href="10th.php">
+											<h5>What after 10th?</h5> <span>24 courses</span>
+										</a>
+									</div>
+								</div>
+								<!-- single items -->
+							</div>
+							<div class="col-md-6">
+								<div class="single-items text-center mt-30">
+									<div class="items-image">
+										<img src="images/category/ctg-2.jpg" alt="Category">
+									</div>
+									<div class="items-cont">
+										<a href="12th.php">
+											<h5>What after 12th?</h5> <span>57 courses </span>
+										</a>
+									</div>
+								</div>
+								<!-- single items -->
+							</div>
+							<div class="col-md-6">
+								<div class="single-items text-center mt-30">
+									<div class="items-image">
+										<img src="images/category/ctg-3.jpg" alt="Category">
+									</div>
+									<div class="items-cont">
+										<a href="grad.php">
+											<h5>What after Graduation?</h5> <span>103 courses</span>
+										</a>
+									</div>
+								</div>
+								<!-- single items -->
+							</div>
+							<div class="col-md-6">
+								<div class="single-items text-center mt-30">
+									<div class="items-image">
+										<img src="images/category/ctg-4.jpg" alt="Category">
+									</div>
+									<div class="items-cont">
+										<a href="intern.php">
+											<h5>Get an Internship</h5> <span>17 courses </span>
+										</a>
+									</div>
+								</div>
+								<!-- single items -->
+							</div>
+							<div class="col-md-6">
+								<div class="single-items text-center mt-30">
+									<div class="items-image">
+										<img src="images/category/ctg-5.jpg" alt="Category">
+									</div>
+									<div class="items-cont">
+										<a href="growth.php">
+											<h5>Guidance for Career Promotion/Growth?</h5> <span>103
+												courses </span>
+										</a>
+									</div>
+								</div>
+								<!-- single items -->
+							</div>
+							<div class="col-md-6">
+								<div class="single-items text-center mt-30">
+									<div class="items-image">
+										<img src="images/category/ctg-6.jpg" alt="Category">
+									</div>
+									<div class="items-cont">
+										<a href="job.php">
+											<h5>How to get a Job?</h5> <span>17 courses </span>
+										</a>
+									</div>
+								</div>
+								<!-- single items -->
+							</div>
+							<div class="col-md-3"></div>
+							<div class="col-md-6">
+								
+								<!-- single items -->
+							</div>
+						</div>
+						<!-- row -->
+					</div>
+					<!-- category -->
+				</div>
+				<div class="col-lg-5 offset-lg-1">
+					<div class="category-form">
+						<div class="form-title text-center">
+							<h3>Get Career Counselling!</h3>
+							<span>Sign up now </span>
+						</div>
+						<div class="main-form">
+							<form action="#">
+								<div class="single-form">
+									<input type="text" placeholder="Your name">
+								</div>
+								<div class="single-form">
+									<input type="email" placeholder="Your E-mail">
+								</div>
+								<div class="single-form">
+									<input type="text" placeholder="Your Phone">
+								</div>
+								<div class="single-form">
+									<button class="main-btn" type="button">Get it Now</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- row -->
 		</div>
 		<!-- container -->
 	</section>
 
-	<!--====== ABOUT PART ENDS ======-->
+	<!--====== CATEGORY PART ENDS ======-->
+
+	<!--====== COURSE PART START ======-->
+
+	
+	<!--====== COURSE PART ENDS ======-->
+</br></br></br></br>
+</br></br>
+
+	<section id="apply-aprt" class="pb-120">
+		<div class="container">
+			<div class="apply">
+				<div class="row no-gutters">
+					<div class="col-lg-6">
+						<div class="apply-cont apply-color-1">
+							<h3>For Students</h3>
+							<p>Students to Explore, Plan & Research Dream Career.</p>
+							<a href="#" class="main-btn">Learn More</a>
+						</div>
+						<!-- apply cont -->
+					</div>
+					<div class="col-lg-6">
+						<div class="apply-cont apply-color-2">
+							<h3>For Parents</h3>
+							<p>Parents who want their Child to stay ahead in Career.</p>
+							<a href="#" class="main-btn">Learn More</a>
+						</div>
+						<!-- apply cont -->
+					</div>
+				</div>
+			</div>
+			<!-- row -->
+		</div>
+		<!-- container -->
+	</section>
 
 	<!--====== COUNTER PART START ======-->
 
@@ -316,7 +449,7 @@
 				<div class="col-lg-3 col-sm-6">
 					<div class="single-counter text-center mt-40">
 						<span><span class="counter">39,000</span>+</span>
-						<p>Global Teachers</p>
+						<p>Counsellors</p>
 					</div>
 					<!-- single counter -->
 				</div>
@@ -330,196 +463,64 @@
 
 	<!--====== TEACHERS PART START ======-->
 
-	<section id="teachers-part" class="pt-65 pb-120">
+		<!--====== TEACHERS PART ENDS ======-->
+
+	<!--====== EVENT 2 PART START ======-->
+
+	<section id="event-part" class="pt-120">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-5">
-					<div class="section-title mt-50 pb-35">
-						<h5>Featured Teachers</h5>
-						<h2>Meet Our teachers</h2>
+			<div class="event-bg bg_cover"
+				style="background-image: url(images/bg-101.jpg)">
+				<div class="row">
+					<div
+						class="col-lg-5 offset-lg-6 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+						<div class="event-2 pt-90 pb-70">
+							<div class="event-title">
+								<h3>Upcoming events</h3>
+							</div>
+							<!-- event title -->
+							<ul>
+								<li>
+									<div class="single-event">
+										<span><i class="fa fa-calendar"></i> 7 March 2020</span> <a
+											href="events-single.html"><h4>Ethereum Fundamental Theory | Blockchain</h4></a>
+										<span><i class="fa fa-clock-o"></i> 10:30Am</span>
+										<span><i class="fa fa-map-marker"></i> Andheri</span>
+									</div>
+								</li>
+								<li>
+									<div class="single-event">
+										<span><i class="fa fa-calendar"></i> 10 MArch 2020</span> <a
+											href="events-single.html"><h4>Deploy AI - Community Day</h4></a> <span><i
+											class="fa fa-clock-o"></i> 08:00 Am</span> <span><i
+											class="fa fa-map-marker"></i> Will be updated later</span>
+									</div>
+								</li>
+								<li>
+									<div class="single-event">
+										<span><i class="fa fa-calendar"></i> 17 December 2020</span> <a
+											href="events-single.html"><h4>Environment conference</h4></a>
+										<span><i class="fa fa-clock-o"></i> 10:00 Am </span>
+										<span><i class="fa fa-map-marker"></i> Mumbai</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!-- event 2 -->
 					</div>
-					<!-- section title -->
 				</div>
+				<!-- row -->
 			</div>
-			<!-- row -->
-			<div class="row">
-				<div class="col-lg-3 col-sm-6">
-					<div class="single-teachers mt-30 text-center">
-						<div class="image">
-							<img src="images/teachers/t-1.jpg" alt="Teachers">
-						</div>
-						<div class="cont">
-							<a href="teachers-single.html"><h6>Mark Alen</h6></a> <span>Vice
-								Chancellor</span>
-						</div>
-					</div>
-					<!-- single teachers -->
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="single-teachers mt-30 text-center">
-						<div class="image">
-							<img src="images/teachers/t-2.jpg" alt="Teachers">
-						</div>
-						<div class="cont">
-							<a href="teachers-single.html"><h6>Mark Alen</h6></a> <span>Vice
-								Chancellor</span>
-						</div>
-					</div>
-					<!-- single teachers -->
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="single-teachers mt-30 text-center">
-						<div class="image">
-							<img src="images/teachers/t-3.jpg" alt="Teachers">
-						</div>
-						<div class="cont">
-							<a href="teachers-single.html"><h6>Mark Alen</h6></a> <span>Vice
-								Chancellor</span>
-						</div>
-					</div>
-					<!-- single teachers -->
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="single-teachers mt-30 text-center">
-						<div class="image">
-							<img src="images/teachers/t-4.jpg" alt="Teachers">
-						</div>
-						<div class="cont">
-							<a href="teachers-single.html"><h6>Mark Alen</h6></a> <span>Vice
-								Chancellor</span>
-						</div>
-					</div>
-					<!-- single teachers -->
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="single-teachers mt-30 text-center">
-						<div class="image">
-							<img src="images/teachers/t-5.jpg" alt="Teachers">
-						</div>
-						<div class="cont">
-							<a href="teachers-single.html"><h6>Mark Alen</h6></a> <span>Vice
-								Chancellor</span>
-						</div>
-					</div>
-					<!-- single teachers -->
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="single-teachers mt-30 text-center">
-						<div class="image">
-							<img src="images/teachers/t-6.jpg" alt="Teachers">
-						</div>
-						<div class="cont">
-							<a href="teachers-single.html"><h6>Mark Alen</h6></a> <span>Vice
-								Chancellor</span>
-						</div>
-					</div>
-					<!-- single teachers -->
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="single-teachers mt-30 text-center">
-						<div class="image">
-							<img src="images/teachers/t-7.jpg" alt="Teachers">
-						</div>
-						<div class="cont">
-							<a href="teachers-single.html"><h6>Mark Alen</h6></a> <span>Vice
-								Chancellor</span>
-						</div>
-					</div>
-					<!-- single teachers -->
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="single-teachers mt-30 text-center">
-						<div class="image">
-							<img src="images/teachers/t-8.jpg" alt="Teachers">
-						</div>
-						<div class="cont">
-							<a href="teachers-single.html"><h6>Mark Alen</h6></a> <span>Vice
-								Chancellor</span>
-						</div>
-					</div>
-					<!-- single teachers -->
-				</div>
-			</div>
-			<!-- row -->
 		</div>
 		<!-- container -->
 	</section>
 
-	<!--====== TEACHERS PART ENDS ======-->
+	<!--====== EVENT 2 PART ENDS ======-->
 
-	<!--====== TEASTIMONIAL PART START ======-->
-<section id="testimonial" class="bg_cover pt-115 pb-115" data-overlay="8" style="background-image: url(images/bg-2.jpg)">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-title pb-40">
-                        <h5>Testimonial</h5>
-                        <h2>What they say</h2>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row testimonial-slide mt-40">
-                <div class="col-lg-6">
-                    <div class="single-testimonial">
-                        <div class="testimonial-thum">
-                            <img src="images/testimonial/t-1.jpg" alt="Testimonial">
-                            <div class="quote">
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-cont">
-                            <p>After 10th exams most of the career advices i received were overwhelming, frustrating, and even misleading.This platform helped me to understand my strenghts and weakness and work on them for a bright Future.
-                            </p>
-                            <h6>Rubina Shaikh</h6>
-                            <span>12th,Commerce</span>
-                        </div>
-                    </div> <!-- single testimonial -->
-                </div>
-                <div class="col-lg-6">
-                    <div class="single-testimonial">
-                        <div class="testimonial-thum">
-                            <img src="images/testimonial/t-2.jpg" alt="Testimonial">
-                            <div class="quote">
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-cont">
-                            <p>This portal acts like a personal guide or friend who understands me better and suggests  which career will best fit  .It helped me to pursue Modelling as my career  </p>
-                            <h6>Sana Khan</h6>
-                            <span>BA,SuperModel</span>
-                        </div>
-                    </div> <!-- single testimonial -->
-                </div>
-                <div class="col-lg-6">
-                    <div class="single-testimonial">
-                        <div class="testimonial-thum">
-                            <img src="images/testimonial/t-3.jpg" alt="Testimonial">
-                            <div class="quote">
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-cont">
-                            <p> Me and my Dad found selection of post graduation path in a scientific and efficient way.Thanks to CareerGuide
-                            </p>
-                            <h6>Kabir </h6>
-                            <span>BE,MTech</span>
-                        </div>
-                    </div> <!-- single testimonial -->
-                </div>
-            </div> <!-- testimonial slide -->
-        </div> <!-- container -->
-    </section>
-   
-		<!--====== TEASTIMONIAL PART ENDS ======-->
+	<!--====== NEWS PART START ======-->
 
-	<!--====== PATNAR LOGO PART START ======-->
-
-	
-
-	<!--====== PATNAR LOGO PART ENDS ======-->
-
-	<!--====== FOOTER PART START ======-->
-
+		<!--====== FOOTER PART START ======-->
+<br><br>
 	<footer id="footer-part">
 		<div class="footer-top pt-40 pb-70">
 			<div class="container">
@@ -529,9 +530,6 @@
 							<div class="logo">
 								<a href="#"><img src="images/logo-2.png" alt="Logo"></a>
 							</div>
-							<p>Gravida nibh vel velit auctor aliquetn quibibendum auci elit
-								cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh
-								vulputate.</p>
 							<ul class="mt-20">
 								<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -547,10 +545,10 @@
 								<h6>Sitemap</h6>
 							</div>
 							<ul>
-								<li><a href="index-2.html"><i class="fa fa-angle-right"></i>Home</a></li>
-								<li><a href="about.html"><i class="fa fa-angle-right"></i>About
+								<li><a href="index.php"><i class="fa fa-angle-right"></i>Home</a></li>
+								<li><a href="aboutus.php"><i class="fa fa-angle-right"></i>About
 										us</a></li>
-								<li><a href="courses.html"><i class="fa fa-angle-right"></i>Courses</a></li>
+								<li><a href="courses.php"><i class="fa fa-angle-right"></i>Courses</a></li>
 								<li><a href="blog.html"><i class="fa fa-angle-right"></i>News</a></li>
 								<li><a href="events.html"><i class="fa fa-angle-right"></i>Event</a></li>
 							</ul>
@@ -559,7 +557,7 @@
 								<li><a href="shop.html"><i class="fa fa-angle-right"></i>Shop</a></li>
 								<li><a href="teachers.html"><i class="fa fa-angle-right"></i>Teachers</a></li>
 								<li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
-								<li><a href="contact.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+								<li><a href="contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
 							</ul>
 						</div>
 						<!-- footer link -->
@@ -625,14 +623,7 @@
 				<div class="row">
 					<div class="col-md-8">
 						<div class="copyright text-md-left text-center pt-15">
-							<p>&copy; Copyrights 2019 Edubin All rights reserved.</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="copyright text-md-right text-center pt-15">
-							<p>
-								Designed by <span>Pixelcurve</span>
-							</p>
+							<p>&copy; Copyrights 2019. All rights reserved.</p>
 						</div>
 					</div>
 				</div>
@@ -645,13 +636,11 @@
 
 	<!--====== FOOTER PART ENDS ======-->
 
-	<!--====== BACK TO TOP PART START ======-->
+	<!--====== BACK TO TP PART START ======-->
 
 	<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-	<!--====== BACK TO TOP PART ENDS ======-->
-
-
+	<!--====== BACK TO TP PART ENDS ======-->
 
 
 
